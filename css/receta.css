@@ -1,0 +1,42 @@
+.recetas{
+    background-color:rgba(218, 185, 151, 0.7);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.receta{
+   max-width: 350px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 1);
+     
+}
+
+.receta__imagen{
+    width: 100%;
+}
+
+.receta__titulo,
+.receta__descripcion,
+.receta__boton{
+    margin-left: 15px;
+    font-family:Roboto;
+}
+
+.receta__titulo{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.receta__boton{
+   padding: 10px;
+   margin-bottom: 20px;
+   background-color: rgba(218, 43, 31, 1);
+   color:rgba(255, 255, 255, 1) ;
+   border-radius: 5px;
+   border: none;
+   width: 30%;
+   font-size: 1rem;
+}
