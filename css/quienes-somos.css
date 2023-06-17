@@ -1,0 +1,66 @@
+.quienes{
+    text-align: center;
+}
+
+.quienes__titulo{
+    color: #da2b1f;
+    margin: 0;
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 51px;
+}
+
+.quienes__descripcion{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 28px;
+    color: #8c8888;
+}
+
+
+.personas{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.persona{
+    padding: 1rem;
+    width: 479px;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.persona__imagen{
+    width: 35%;
+    border-radius: 50%;
+    height: 60%;
+    background-position: center center;
+    background-size: contain;
+   
+}
+
+.persona__nombre{
+    font-family: Pacifico;
+    font-weight: 400;
+    font-size: 25px;
+    color: #da2b1f;
+}
+
+.persona__imagen--roberta{
+    background-image: url(../img/personas/roberta.jpg);
+}
+
+.persona__imagen--marcela{
+    background-image: url(..//img/personas/marcela.jpg);
+}
+
+.persona__imagen--andreia{
+    background-image: url(../img/personas/andrea.jpg);
+}
+
+.persona__funcion{
+    color: #8c8888;
+}
