@@ -21,31 +21,31 @@
 .personas{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .persona{
     padding: 1rem;
-    width: 479px;
-    height: 254px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
 .persona__imagen{
-    width: 35%;
-    border-radius: 50%;
-    height: 60%;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 100%;
     background-position: center center;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
 
 .persona__nombre{
-    font-family: Pacifico;
+    font-family: Pacifico, cursive;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 2rem;
     color: #da2b1f;
 }
 
@@ -63,4 +63,6 @@
 
 .persona__funcion{
     color: #8c8888;
+    font-size: 1.25rem;
+    text-transform: lowercase;
 }

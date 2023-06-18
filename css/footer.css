@@ -1,0 +1,48 @@
+.pie{
+   margin-top: 5rem;
+    width: 100vw;
+}
+
+.pie__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.pie__ano,
+.pie__contacto{
+    color: #8c8888;
+}
+.pie__contacto{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.redes{
+    display: flex;
+}
+
+
+.pie__redes{
+    margin-right: 1rem;
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+.pie__redes-whatsapp{
+    background-image: url(../img/WhatsApp.png);
+}
+
+.pie__redes-email{
+    background-image: url(../img/email.png);
+}
+
+.pie__redes-instagram{
+    background-image: url(../img/Instagram.png);
+}
