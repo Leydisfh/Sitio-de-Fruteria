@@ -31,3 +31,25 @@
 }
 
 
+@media screen and (max-width:768px) {
+    .pie{
+        margin: 3rem 1rem 0.5rem;
+        flex-direction: column;
+    }
+    .pie__ano{
+        font-size: .80rem;
+    }
+.pie__contacto{
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pie__lista{
+   margin-right: 20px;
+}
+    .pie__imagen{
+        width: 20px;
+        height: 20px;
+        
+    }
+}

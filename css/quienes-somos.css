@@ -66,3 +66,39 @@
     font-size: 1.25rem;
     text-transform: lowercase;
 }
+
+
+@media screen and (max-width:768px) {
+    .quienes__titulo{
+        font-size: 2rem;
+    }
+.quienes__descripcion{
+    font-size: 1.5rem;
+}
+.personas{
+    flex-direction: column;
+  
+}
+
+.persona{
+    align-items: center;
+}
+.persona__imagen{
+    width: 90px;
+    height: 90px;
+}
+.persona__nombre{
+    font-size: 1.8rem;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:920px) {
+    .personas{
+        justify-content: center;
+    }
+    
+    .persona__imagen{
+        width:150px ;
+        height: 150px;
+    }
+}
