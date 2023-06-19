@@ -1,16 +1,12 @@
 .pie{
-   margin-top: 5rem;
-    width: 100vw;
-}
-
-.pie__container{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3rem;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 7rem 3rem 0.5rem;
     align-items: center;
-    
 }
+
+
 
 .pie__ano,
 .pie__contacto{
@@ -18,31 +14,20 @@
 }
 .pie__contacto{
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.redes{
+.pie__lista{
     display: flex;
+    list-style: none;
 }
 
 
-.pie__redes{
+.pie__imagen{
     margin-right: 1rem;
     width: 40px;
     height: 40px;
-    background-position: center center;
-    background-size: contain;
+
 }
 
 
-.pie__redes-whatsapp{
-    background-image: url(../img/WhatsApp.png);
-}
-
-.pie__redes-email{
-    background-image: url(../img/email.png);
-}
-
-.pie__redes-instagram{
-    background-image: url(../img/Instagram.png);
-}
