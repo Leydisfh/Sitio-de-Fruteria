@@ -1,4 +1,3 @@
 
 # Sitio-de-Fruteria
-Sitio web de fruteria
-
+<p>Pequeño proyecto de página web para el curso de @alura, donde se trabaja con diseño responsive, y con metodologias:<strong> BEM y ACSS</strong> </p>
