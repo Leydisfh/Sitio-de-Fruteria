@@ -33,12 +33,14 @@
 }
 
 
-@media screen and (min-width:0) {
+@media screen and (max-width:768px) {
     .cabecera{
         padding: 0 1rem;
         justify-content: center;
     }
-    
+    .logo{
+        display: none;
+    }
 }
 
 
